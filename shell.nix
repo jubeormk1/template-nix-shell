@@ -13,6 +13,7 @@ let
 	# nodejs
 	# typescript
 	# awscli2
+	# nodePackages.aws-cdk
   ];
 in
 pkgs.mkShell {
