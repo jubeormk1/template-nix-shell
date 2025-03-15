@@ -6,13 +6,13 @@ let
   # Specify the exact packages you want in the environment
   buildInputs = with pkgs; [
   	git 			# Basic
-    pre-commit      # Pre-commit hooks framework
-  	rustup
-  	cargo
-  	rustc
-    nodejs
-    typescript
-	awscli2
+	pre-commit      # Pre-commit hooks framework
+	# rustup
+	# cargo
+	# rustc
+	# nodejs
+	# typescript
+	# awscli2
   ];
 in
 pkgs.mkShell {
