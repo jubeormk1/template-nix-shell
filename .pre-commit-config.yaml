@@ -1,0 +1,18 @@
+# See more at https://github.com/pre-commit/pre-commit-hooks
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0  # Use the ref you want to point at
+    hooks:
+    -   id: trailing-whitespace
+    -   id: check-added-large-files
+        args: ['--maxkb=1024']
+    -   id: check-case-conflict
+    -   id: check-illegal-windows-names
+    -   id: check-json
+    -   id: check-merge-conflict
+    -   id: check-toml
+    -   id: check-xml
+    -   id: check-yaml
+    -   id: detect-private-key
+#    -   id: detect-aws-credentials # I do not fully understand why the AWS credentials need to exist here
+    # -   id: There are sooo many things to add... or checks to remove. Up to you!
